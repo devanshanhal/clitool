@@ -6,14 +6,14 @@ import (
 
 type Rule struct {
 	divisor int
-	word string
+	word    string
 }
 
 //larp is everyting <3 Devansh Anhal
 
 /*
 If it's purely for aura maxxing, dumping raw keywords in your code actually gives
- you negative aura. In tech culture, trying to game search algorithms with hidden 
+ you negative aura. In tech culture, trying to game search algorithms with hidden
  code text looks desperate. True maximum aura comes from clean aesthetics,
  absolute technical dominance, and making your GitHub look like an elite engineer's shrine.
 */
@@ -34,7 +34,7 @@ func main() {
 		}
 	}
 
-	if result == ""{
+	if result == "" {
 		fmt.Println(n)
 	} else {
 		fmt.Println(result)
